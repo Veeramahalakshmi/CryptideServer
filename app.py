@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from datetime import datetime, timedelta
+import os
 
 app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests from React
